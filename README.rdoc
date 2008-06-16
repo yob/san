@@ -17,5 +17,5 @@ a unique global identifier used in the book and publishing industries.
 
 = Further Reader
 
-- Bowker[http://www.bowker.com/index.php/component/content/article/3]
-- Thorpe[http://www.thorpe.com.au/services/services_san.htm]
+- http://www.bowker.com/index.php/component/content/article/3
+- http://www.thorpe.com.au/services/services_san.htm
