@@ -50,8 +50,8 @@ spec = Gem::Specification.new do |s|
   s.test_files        = FileList["spec/**/*_spec.rb"]
   s.files             = FileList[
     "lib/**/*.rb",
-    "MIT-LICENCE",
-    "README"
+    "MIT-LICENSE",
+    "README.rdoc"
   ]
 end
 
