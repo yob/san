@@ -2,13 +2,13 @@ class SAN
 
   class Version #:nodoc:
     Major = 1
-    Minor = 0
+    Minor = 1
     Tiny  = 0
     
     String = [Major, Minor, Tiny].join('.')
   end
 
-  def initialize(num)
+  def initialize(str)
     @number = str.to_s
   end
 

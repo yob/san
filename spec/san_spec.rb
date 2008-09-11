@@ -5,6 +5,10 @@ require 'san'
 
 describe "The SAN class" do
   it "should identify a valid SAN" do
+    SAN.new("9013725").valid?.should be_true
+  end
+
+  it "should identify a valid SAN" do
     SAN.valid?("9013725").should be_true
     SAN.valid?(9013725).should   be_true
     SAN.valid?("902865X").should be_true
