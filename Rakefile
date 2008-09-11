@@ -27,6 +27,7 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.options << '--line-numbers' << '--inline-source'
   rdoc.rdoc_files.include('README.rdoc')
   rdoc.rdoc_files.include('MIT-LICENSE')
+  rdoc.rdoc_files.include('CHANGELOG')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
 
@@ -51,7 +52,8 @@ spec = Gem::Specification.new do |s|
   s.files             = FileList[
     "lib/**/*.rb",
     "MIT-LICENSE",
-    "README.rdoc"
+    "README.rdoc",
+    "CHANGELOG"
   ]
 end
 

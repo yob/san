@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.has_rdoc          = true
   s.rdoc_options      << "--title" << "SAN" << "--line-numbers"
   s.test_files        = [ "spec/san_spec.rb" ]
-  s.files             = [ "lib/san.rb", "MIT-LICENSE", "README.rdoc" ]
+  s.files             = [ "lib/san.rb", "MIT-LICENSE", "README.rdoc", "CHANGELOG" ]
 end
