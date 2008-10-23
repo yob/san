@@ -6,14 +6,14 @@ a unique global identifier used in the book and publishing industries.
   SAN.new("9013725").valid?
   => true
 
-  SAN.valid_san?("9013725")
+  SAN.valid?("9013725")
   => true
 
-  SAN.valid_san?("9013726")
+  SAN.valid?("9013726")
   => false
 
-  SAN.check_digit?("901372")
-  => 5
+  SAN.complete("901372")
+  => "9013725"
 
 = Further Reader
 
