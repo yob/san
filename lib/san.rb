@@ -16,6 +16,17 @@ class SAN
     SAN.valid? @number
   end
 
+  # convert this SAN into a US based Global Location Number.
+  #
+  # see:
+  #  - http://en.wikipedia.org/wiki/Global_Location_Number
+  #  - http://www.bisg.org/conferences/UConnnect_2007.pdf
+  #
+  def to_us_gln
+    return nil unless valid?
+    "079999#{@number}"
+  end
+
   def self.valid?(san)
     san = san.to_s
     san.length == 7 && san == SAN.complete(san[0,6])
