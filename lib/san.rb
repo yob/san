@@ -1,3 +1,5 @@
+require 'ean13'
+
 class SAN
 
   class Version #:nodoc:
@@ -25,6 +27,17 @@ class SAN
   def to_us_gln
     return nil unless valid?
     "079999#{@number}"
+  end
+
+  # convert this SAN into a UK based Global Location Number.
+  #
+  # see:
+  #  - http://en.wikipedia.org/wiki/Global_Location_Number
+  #  - http://www.bisg.org/conferences/UConnnect_2007.pdf
+  #
+  def to_uk_gln
+    return nil unless valid?
+    EAN13.complete("503067#{@number[0,6]}")
   end
 
   def self.valid?(san)

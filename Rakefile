@@ -48,6 +48,7 @@ spec = Gem::Specification.new do |s|
   s.rdoc_options     << "--title" << "SAN" <<
                         "--line-numbers"
   s.rubyforge_project = RUBY_FORGE_PROJECT
+  s.add_dependency('ean13')
   s.test_files        = FileList["spec/**/*_spec.rb"]
   s.files             = FileList[
     "lib/**/*.rb",

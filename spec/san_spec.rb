@@ -33,4 +33,12 @@ describe "The SAN class" do
     # invalid
     SAN.new("9013724").to_us_gln.should be_nil
   end
+
+  it "should correctly convert to a UK based GLN" do
+    # valid
+    SAN.new("0159263").to_uk_gln.should eql("5030670159260")
+
+    # invalid
+    SAN.new("9013724").to_uk_gln.should be_nil
+  end
 end
