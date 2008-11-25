@@ -4,7 +4,7 @@ class SAN
 
   class Version #:nodoc:
     Major = 1
-    Minor = 1
+    Minor = 2
     Tiny  = 0
     
     String = [Major, Minor, Tiny].join('.')

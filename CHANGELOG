@@ -1,5 +1,5 @@
-v1.2 (XXX)
-- Add a function for conversion to a US-based GLN
+v1.2 (25th November 2008)
+- Add functions for conversion to a US and UK-based GLN
 
 v1.1 (11th September 2008)
 - Fix an embarassing typo
