@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name              = "san"
-  s.version           = "1.0"
+  s.version           = "1.3"
   s.summary           = "a (very) small library for working with Standard Address Numbers."
   s.description       = "a (very) small library for working with Standard Address Numbers."
   s.author            = "James Healy"
