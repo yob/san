@@ -29,6 +29,7 @@ describe "The SAN class" do
   it "should correctly convert to a US based GLN" do
     # valid
     SAN.new("9013725").to_us_gln.should eql("0799999013725")
+    SAN.new("9029761").to_us_gln.should eql("0799999029764")
 
     # invalid
     SAN.new("9013724").to_us_gln.should be_nil

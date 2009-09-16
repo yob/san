@@ -4,7 +4,7 @@ class SAN
 
   class Version #:nodoc:
     Major = 1
-    Minor = 2
+    Minor = 3
     Tiny  = 0
     
     String = [Major, Minor, Tiny].join('.')
@@ -26,7 +26,7 @@ class SAN
   #
   def to_us_gln
     return nil unless valid?
-    "079999#{@number}"
+    EAN13.complete("079999#{@number[0,6]}")
   end
 
   # convert this SAN into a UK based Global Location Number.
