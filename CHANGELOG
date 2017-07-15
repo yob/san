@@ -1,3 +1,6 @@
+v1.3 (15th September 2009)
+- Calculate the correct check digit when converting to a GLN
+
 v1.2 (25th November 2008)
 - Add functions for conversion to a US and UK-based GLN
 
