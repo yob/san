@@ -10,4 +10,8 @@ Gem::Specification.new do |s|
   s.rdoc_options      << "--title" << "SAN" << "--line-numbers"
   s.test_files        = [ "spec/san_spec.rb" ]
   s.files             = [ "lib/san.rb", "MIT-LICENSE", "README.rdoc", "CHANGELOG" ]
+
+  s.add_dependency("ean13")
+  s.add_development_dependency("rake")
+  s.add_development_dependency("rspec", "~> 3.0")
 end
