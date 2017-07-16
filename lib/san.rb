@@ -50,7 +50,6 @@ class SAN
     six_digit_san = six_digit_san.to_s
     return nil unless six_digit_san.length == 6 && six_digit_san.match(/\d{6}/)
     
-    #sum = (0..5).to_a.sum { |i| six_digit_san[i,1].to_i * (7-i) }
     arr = (0..5).to_a.collect { |i| six_digit_san[i,1].to_i * (7-i) }
     sum = arr.inject { |sum, n| sum + n }
     check = 11 - (sum % 11)
