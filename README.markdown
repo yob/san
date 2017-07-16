@@ -21,5 +21,4 @@ a unique global identifier used in the book and publishing industries.
 
 # Further Reading
 
-- http://www.bowker.com/index.php/component/content/article/3
-- http://www.thorpe.com.au/services/services_san.htm
+- https://www.myidentifiers.com.au/san/about
