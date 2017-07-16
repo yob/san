@@ -1,21 +1,21 @@
 A small class for generating and validating Standard Address Numbers (SAN),
 a unique global identifier used in the book and publishing industries.
 
-= Usage
+# Usage
 
-  SAN.new("9013725").valid?
-  => true
+    SAN.new("9013725").valid?
+    => true
 
-  SAN.valid?("9013725")
-  => true
+    SAN.valid?("9013725")
+    => true
 
-  SAN.valid?("9013726")
-  => false
+    SAN.valid?("9013726")
+    => false
 
-  SAN.complete("901372")
-  => "9013725"
+    SAN.complete("901372")
+    => "9013725"
 
-= Further Reader
+# Further Reading
 
 - http://www.bowker.com/index.php/component/content/article/3
 - http://www.thorpe.com.au/services/services_san.htm
