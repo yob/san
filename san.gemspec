@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.test_files        = [ "spec/san_spec.rb" ]
   s.files             = [ "lib/san.rb", "MIT-LICENSE", "README.markdown", "CHANGELOG" ]
 
-  spec.required_ruby_version = ">=1.9.3"
+  s.required_ruby_version = ">=1.9.3"
 
   s.add_dependency("ean13")
   s.add_development_dependency("rake")
