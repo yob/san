@@ -3,6 +3,7 @@ Gem::Specification.new do |s|
   s.version           = "1.3"
   s.summary           = "a (very) small library for working with Standard Address Numbers."
   s.description       = "a (very) small library for working with Standard Address Numbers."
+  s.license           = "MIT"
   s.author            = "James Healy"
   s.email             = "jimmy@deefa.com"
   s.homepage          = "http://github.com/yob/san"
